@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改新闻数据</title>
+	<link rel="stylesheet" href="/admin/css/bootstrap.css">
+   <link rel="stylesheet" href="/admin/css/amend.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- 标题start -->
+    <div class="title">
+        新闻修改系统
+    </div>
+    <!-- 标题end -->
+
+    <!-- 盒子start -->
+    <div class="box center-block">
+	    <form action="/news/edit" method="POST" class="form_all">
+	    <!-- 表格样式start -->
+	    	<table class="table">
+	    		<tbody>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻标题:
+								<input type="text" name="title" class="input_all" value="<%= title %>" required>
+								<input type="hidden" name="id" value="<%= id %>">
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻图片:
+								<input type="text" name="img" class="input_all" value="<%= img %>" required>
+								
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻栏目:
+								<input class="newsColumn" type="radio" name="col_id" value="1">推荐
+								<input class="newsColumn" type="radio" name="col_id" value="2">百家
+								<input class="newsColumn" type="radio" name="col_id" value="3">本地
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻标签:
+								<input class="newsTag" type="radio" name="tag_id" value="2">搜狐头条
+								<input class="newsTag" type="radio" name="tag_id" value="3">搜狐要闻
+								<input class="newsTag" type="radio" name="tag_id" value="4">网易要闻
+								<input class="newsTag" type="radio" name="tag_id" value="5">腾讯要闻
+
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<input type="submit" value="提交" class="btn">
+						</td>
+	    			</tr>
+				</tbody>
+			</table>
+			<!-- 表格样式end -->
+		</form>
+		<input type="hidden" id="thisColId" value="<%= col_id %>">
+		<input type="hidden" id="thisTagId" value="<%= tag_id %>">
+    </div>
+    <!-- 盒子end -->
+    <script type="text/javascript" src="/news/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/admin/js/edit.js"></script>
+</body>
+</html>

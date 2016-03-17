@@ -1,0 +1,10 @@
+<tr>
+    <td class='td_title col-lg-2 col-md-2 col-sm-2'><%= item.title %></td>
+    <td class='td_img col-lg-3 col-md-3 col-sm-3'><%= item.img %></td>
+    <td class='td_col col-lg-1 col-md-1 col-sm-1'><%= item.colName %></td>
+    <td class='td_tag col-lg-2 col-md-2 col-sm-2'><%= item.tagName %></td>
+    <td class='td_cTime col-lg-2 col-md-2 col-sm-2'><%= item.create_time %></td>
+    <td class='td_operate col-lg-2 col-md-2 col-sm-2'>
+        <a href='/newsEditPage/<%= item.id %>'>修改</a>|<a href='delete/<%= item.id %>'>删除</a>
+    </td>
+<tr>

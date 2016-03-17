@@ -1,0 +1,74 @@
+/* 公共样式 start*/
+body{
+  background-color: #9370DB;
+}
+td{
+  font-size: 12px;
+  text-align: left;
+}
+/* 公共样式 end*/
+
+/* 容器样式start */
+.container {
+  width: 710px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 2em;
+}
+/* 容器样式end */
+
+/* 头部样式start */
+#manyAddr div{
+  text-align: right;
+}
+
+#manyAddr a{
+  text-decoration: none;
+}
+
+.topTable{
+  margin: auto;
+}
+
+#logoImg{
+  position: relative;
+  left: -10px;
+}
+/* 头部样式end */
+
+/* 中间样式start */
+#infoTable{
+  margin: auto;
+  border: 0px;
+  border-spacing: 0px;
+  border-color: #cccccc;
+  border-collapse: collapse;
+}
+
+.tableTitle{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#tableDesc{
+  font-size: 12px;
+  line-height: 150%;
+  color: #333333;
+}
+.biaotiTd{
+  background-color: #eeeeee;
+}
+.biaotiTd font{
+  font-size: 13px;
+  line-height: 150%;
+  color: #003399;
+  font-weight: bold;
+}
+/* 中间样式end */
+
+/* 底部样式start */
+.submitTd{
+  text-align: center;
+  height: 85px;
+}
+/* 底部样式end*/

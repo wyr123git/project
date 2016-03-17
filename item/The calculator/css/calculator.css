@@ -1,0 +1,92 @@
+/* 公共样式start */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    background-color:#5CACEE; 
+}
+/* 公共样式end */
+
+/* 盒子样式start */
+.box {
+    width: 250px;
+    height: 350px;
+    background-color:#F2F2F2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius:10px;
+    box-shadow:10px 10px 5px #363636; 
+}
+
+.title {
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+/* 输入框样式start */
+.screen {
+    width: 220px;
+    height: 30px;
+    text-align: right;
+    padding-right: 5px;
+    border: 1px solid #98FB98;
+}
+/* 输入框样式end */
+
+/* 计算部分样式start */
+.box ul {
+    padding: 0;
+    margin: 5px 15px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.box li {
+    display: inline;
+    width: 32px;
+    height: 32px;
+    background-color: #B0E0E6;
+    float: left;
+    list-style: none;
+    margin: 5px;
+    line-height: 32px;
+    
+}
+img{
+    margin-top: 10px;
+    color:#0000CD; 
+
+}
+.box .delate{
+	background-color:#9FB6CD;
+    color:#000;
+    font-weight: bold;
+}
+.box li:hover{
+	background-color:#9F79EE;
+	cursor: pointer; 
+}
+.box li:active{
+	background-color:#76EE00;
+	cursor: pointer; 
+}
+.box .delate:hover{
+	background-color:#9F79EE;
+	cursor: pointer; 
+}
+.box .delate:active{
+	background-color:#1874CD;
+	cursor: pointer; 
+}
+/* 计算部分样式start */
+
+/* 盒子样式end */

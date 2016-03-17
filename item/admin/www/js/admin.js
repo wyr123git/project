@@ -1,0 +1,1 @@
+var timeoutid;$(document).ready(function(){$("#tab_ul li").each(function(t){var i=$(this);i.click(function(){timeoutid=setTimeout(function(){$(".tab").removeClass("tab"),i.addClass("tab"),$(".first").removeClass("first"),$(".content").eq(t).addClass("first")},300)})})});

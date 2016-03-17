@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+
+<body>
+    <!-- 大容器start -->
+    <div class="container">
+        <!-- 盒子start -->
+        <div class="box">
+            <!-- 标题start -->
+            <div class="title">
+                <h3>计算器</h3>
+            </div>
+            <!-- 标题end -->
+            <!-- 计算输入框start -->
+            <form name="box" action="" method="get">
+                <div class="input">
+                    <input type="text" class="screen" value="0" name="numScreen" onFocus="concentrate()">
+                </div>
+                <div class="number">
+                    <ul>
+                        <li onclick="command(7)">7</li>
+                        <li onclick="command(8)">8</li>
+                        <li onclick="command(9)">9</li>
+                        <li onclick="del()" class="delate">←</li>
+                        <li onclick="clearscreen()" class="delate">C</li>
+                        <li onclick="command(4)">4</li>
+                        <li onclick="command(5)">5</li>
+                        <li onclick="command(6)">6</li>
+                        <li onclick="ride()" class="delate" value="×">×</li>
+                        <li onclick="divide()" class="delate">÷</li>
+                        <li onclick="command(1)">1</li>
+                        <li onclick="command(2)">2</li>
+                        <li onclick="command(3)">3</li>
+                        <li onclick="add()" class="delate">+</li>
+                        <li onclick="reduce()" class="delate">-</li>
+                        <li onclick="command(0)">0</li>
+                        <li onclick="zero()">00</li>
+                         <li onclick="dot()">.</li>
+                         <li onclick="sqrt()" class="delate"><img src="img/gen.png" alt=""></li>
+                       
+                        <li onclick="pow()" class="delate">x<SUP>y</SUP></li>
+                         <li onclick="sin()" class="delate">sin</li>
+                         <li onclick="cos()" class="delate">cos</li>
+                        
+                       
+                        
+                         <li onclick="tan()" class="delate">tan</li>
+                        <li onclick="percent()" class="delate">%</li>
+                        <li onclick="equal()" class="delate">=</li>
+                    </ul>
+                </div>
+            </form>
+            <!-- 计算输入框end -->
+        </div>
+        <!-- 盒子end -->
+    </div>
+    <!-- 大容器end -->
+    <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+/* 公共样式start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+/* 公共样式end */
+
+
+/* 头部start */
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: #3e98f0;
+}
+
+.top {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #4EEE94;
+}
+
+.top_box {
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.box_all {
+    width: 8%;
+    height: 38px;
+    float: left;
+}
+
+.box_second {
+    margin-left: 5%;
+}
+
+.box_three {
+    width: 30%;
+    height: 38px;
+    float: left;
+    margin-left: 14%;
+}
+
+.box_for {
+    margin-left: 13%;
+}
+
+.box_five {
+    margin-left: 2%;
+}
+
+.img {
+    position: relative;
+    top: 10px;
+}
+
+.title {
+    width: 100%;
+    height: 80px;
+}
+
+.title_one {
+    width: 100%;
+    height: 40px;
+}
+
+
+/* 头部end */
+
+/* 文章部分样式start */
+.ul_li {
+    margin: 4px 30px;
+}
+
+.ul_li .active {
+    border-bottom: 1px solid #fff;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    color: #fff;
+}
+
+.article_news {
+    height: auto;
+    margin: 7px 10px;
+    /* border: 1px solid yellow; */
+}
+
+.news_box {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.news_img {
+    height: 68px;
+    border: 1px solid #e8e8e8;
+    margin-left: 0;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.news_title {
+    height: 70%;
+    width: 60%;
+    float: left;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.smallImg {
+    width: 95px;
+    height: 68px;
+}
+
+.news_time {
+    height: 30%;
+    width: 40%;
+    float: left;
+    position: relative;
+    bottom: 0;
+    color: #b8bac0;
+}
+
+.news_tag {
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: #e02f2f;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 3px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262b31;
+}
+/* 文章部分样式end */

@@ -1,0 +1,120 @@
+/* 公共样式start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 公共样式end */
+
+/* 头部样式start */
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+.box_all {
+    width: 99%;
+    height: 140px;
+    background-color: #fff;
+}
+
+.s_tab {
+    width: 98%;
+    height: 40px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    width: 500px;
+    height: 30px;
+    margin: 10px 200px;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+}
+
+li:hover {
+    color: #0000EE;
+}
+/* 百度图片样式start */
+.baidui {
+    width: 137px;
+    height: 46px;
+    margin: -10px 40px;
+}
+/* 百度图片样式end */
+
+.input_box {
+    width: 590px;
+    height: 35px;
+    margin: -30px 200px;
+}
+
+.input {
+    width: 500px;
+    height: 35px
+}
+
+.btn_box {
+    width: 90px;
+    height: 35px;
+    margin: -30px 700px;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    margin-top: -5px;
+}
+
+.font {
+    width: 98%;
+    height: 40px;
+    margin: 30px 20px;
+}
+
+.li {
+    color: #000;
+}
+
+.ul {
+    width: 98%;
+    height: 30px;
+    margin: 10px 10px;
+    padding: 15px;
+    color: #0000EE;
+    cursor: pointer;
+}
+/* 头部样式end */
+
+
+/* 文章样式start */
+.article {
+    width: 100%;
+    height: 1200px;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    margin: 10px 20px;
+}
+.box {
+    position: relative;
+    float: left;
+}
+.content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+/* 文章样式end */

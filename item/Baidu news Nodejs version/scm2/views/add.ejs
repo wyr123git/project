@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加新闻数据</title>
+	<link rel="stylesheet" href="/admin/css/bootstrap.css">
+   <link rel="stylesheet" href="/admin/css/amend.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- 标题start -->
+    <div class="title">
+        新闻添加系统
+    </div>
+    <!-- 标题end -->
+
+    <!-- 盒子start -->
+    <div class="box center-block">
+	    <form action="/news/save" method="POST" class="form_all">
+	    <!-- 表格样式start -->
+	    	<table class="table">
+	    		<tbody>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻标题:
+								<input type="text" name="title" class="input_all" required>
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻图片:
+								<input type="text" name="img" class="input_all" required>
+								
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻栏目:
+								<input type="radio" name="col_id" value="1" checked>推荐
+								<input type="radio" name="col_id" value="2">百家
+								<input type="radio" name="col_id" value="3">本地
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<label for="">新闻标签:
+								<input type="radio" name="tag_id" value="2" checked>搜狐头条
+								<input type="radio" name="tag_id" value="3">搜狐要闻
+								<input type="radio" name="tag_id" value="4">网易要闻
+								<input type="radio" name="tag_id" value="5">腾讯要闻
+
+							</label>
+						</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<input type="submit" value="提交" class="btn">
+						</td>
+	    			</tr>
+				</tbody>
+			</table>
+			<!-- 表格样式end -->
+		</form>
+    </div>
+    <!-- 盒子end -->
+</body>
+</html>

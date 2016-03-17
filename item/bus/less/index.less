@@ -1,0 +1,205 @@
+@auto:auto;
+@mp:0;
+@width:800px;
+@height:500px;
+@float:left;
+@color:#fff;
+@fon-size:10px;
+@ling-height:10px;
+@margin-f:10px;
+@margin-r:10px;
+@margin-t:10px;
+@margin-b:10px;
+@background-color:#000000;
+@cur:pointer;
+.center{
+	box-shadow: 10px 10px 5px #888888;
+	position: relative;
+	margin: auto;
+	top: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.st{
+	width:  @width - 400px;
+	height: @height - 410px;
+}
+
+/* 公共样式start */
+*{
+	margin: @mp;
+	padding: @mp;
+}
+body{
+	background:url(".././img/3.jpg");
+	backgroud-repeat:no-repeat;
+}
+/* 公共样式end */
+
+/* 容器部分start */
+.container{
+	width: @auto;
+	height: @auto;
+}
+/* 站牌头部样式start */
+.header{
+	width: @width;
+	height: @height;
+	background-color:#EEE5DE; 
+	.center;
+}
+/* 站牌头部的上面部分样式start */
+.above{
+	width: @width;
+	height: @height - 320px;
+}
+.a-left{
+	width: @width - 500px;
+	height: @height - 320px;
+	float: @float;
+	h1{
+		font-size: @fon-size * 10px;
+		line-height: @ling-height * 14px;
+		margin-left: @margin-f + 55px;
+		color: @color;
+	}
+	.time{
+		width: @width - 500px;
+		height: 0px / @height;
+	}
+	b{
+		line-height: @ling-height + 28px;
+		margin-left: @margin-f + 15px;	
+	}
+	.street{
+		width: @width - 500px;
+		height: @height - 360px;
+		background-color:#FF0000;
+	}
+}
+
+.a-right{
+	width: @width - 400px;
+	height: @height - 320px;
+	float: @float;
+	margin-left: @margin-f + 85px;
+
+	.station{
+		.st;
+	}
+	.station h2{
+		margin-top: @margin-t;
+		margin-left: @margin-f + 40px;
+		color: #228B22;
+	}
+	.station  h3{
+		margin-top: @margin-t + 5px;
+		margin-left: @margin-f + 18px;
+		color: #228B22;
+		
+	}
+	.interval{
+		.st;
+	}
+	.interval h2{
+		line-height: @ling-height + 80px;
+		margin-left: @margin-f + 140px;
+		color:#CD0000;
+	}
+}
+@-moz-document url-prefix(){
+	.a-right .station h3{
+		margin-left:-3px;
+		
+	}
+}
+.middle{
+	width: @width;
+	height: @height - 262px;
+	background-color: #065606;
+	color: @color;
+
+	.m-interval{
+		width: @width;
+		height: @height - 275px;
+		margin-top:  @margin-t + 5px;
+
+		ul{
+			margin-left: @margin-f - 2px;
+
+			li{
+				width: 25px;
+				vertical-align:top;
+				cursor: @cur;
+				text-align:center;
+				display: inline-block;
+				writing-mode:lr-tb;
+				margin-top: 20px;
+				padding: 0 2px\9;/* IE 9 */
+				&:hover{
+					background-color:#436EEE;
+				}
+
+			}
+		}
+	}
+}
+@-moz-document url-prefix(){
+	li{
+	padding:0 2px; /* Firefox */
+
+	}
+}
+/* 站牌头部的中间部分样式end */
+
+/* 站牌头部的下面部分样式start */
+
+.below{
+	width: @width;
+	height: @height - 422px;
+	.b-font{
+		width: @width;
+		height: @height - 465px;
+		h4{
+			line-height: @ling-height + 20px;
+			margin-left: @margin-f + 160px;
+		}
+	}
+	.b-direct{
+		width: @width;
+		height: @height - 457px;
+		.ling{
+			width: @width - 300px;
+			height: @height - 485px;
+			margin-top: @margin-t;
+			background-color: #FF0000;
+			margin-left: @margin-f + 65px;
+		}
+		.triangle{
+			float: right;
+			margin-top: @margin-t - 40px;
+			margin-right: @margin-r + 55px;
+			width:@mp;
+			height:@mp;   
+			border-width:15px 80px 15px 80px;            
+			border-style:solid;            
+			border-color:transparent transparent #FF0000 #FF0000;    
+		}
+	}
+}
+
+
+/* 站牌头部的上面部分样式start */
+
+/* 站牌头部样式end */
+
+/* 站牌底部样式start */
+.footer{
+	width: @width - 700px;
+	height: @height - 347px;
+	.center;
+	background-color: #555555;
+}
+/* 站牌底部样式end */
+/* 容器部分end */

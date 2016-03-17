@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="css/ie6.css">
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 这是大的容器srart -->
+    <div id="container">
+        <!-- 登陆的页面start -->
+        <div class="log_in">
+            <div class="log_in_box">
+                <div class="log_title">
+                    <img src="img/baidu.png" alt="" class="small_img">
+                    <div class="font">登陆百度账号</div>
+                    <img src="img/guanbi.png" alt="" class="guanbi_img">
+                </div>
+                <div class="message">
+                    <div class="note">
+                        <img src="img/moblle.png" alt="" class="mobble_img">
+                        <div class="font1">短信快捷登陆</div>
+                    </div>
+                    <div class="input_all">
+                        <form action="../登陆后的百度首页/index.html" class="all">
+                            <div class="form-group">
+                                <label for="ursename"></label>
+                                <img src="img/user.png" alt="">
+                                <input type="text" class="form-control" placeholder="用户名" required="true">
+                                <label for="password"></label>
+                                <img src="img/pas.png" alt="">
+                                <input type="text" class="form-control" placeholder="密码" required="true">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value=""> 下次自动登陆
+                                    </label>
+                                </div>
+                                <button class="btn btn-default" type="submit">登录</button>
+                            </div>
+                        </form>
+                        <div class="other">
+                            <div class="method">
+                                可以使用以下方式登陆
+                                <div>
+                                    <img src="img/qq.png" alt="">
+                                    <img src="img/weibo.jpg" alt="" width="24" height="24">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 登陆的页面end -->
+        
+        <!-- 这是一个顶栏start -->
+        <div id="topbar">
+            <div id="rightBar">
+                <!-- 这是顶栏右边的内容 -->
+                <ul>
+                    <li><a href="http://news.baidu.com/" class="leftA">新闻</a> </li>
+                    <li><a href="http://www.hao123.com/" class="leftA">hao123</a></li>
+                    <li><a href="http://map.baidu.com/" class="leftA">地图</a></li>
+                    <li><a href="http://v.baidu.com/" class="leftA">视频</a></li>
+                    <li><a href="http://tieba.baidu.com/" class="leftA">贴吧</a></li>
+                    <li><a href="javascript:;" class="loginA">登录</a></li>
+                    <li class="setALi">
+                        <a href="javascript:;" class="setA">设置</a>
+                        <ul class="erji_ul">
+                            <div class="setArrow"><em></em><i></i></div>
+                            <li class="erji">
+                                <a href="#">搜索设置</a>
+                            </li>
+                            <li class="erji">
+                                <a href="#">高级设置</a>
+                            </li>
+                            <li class="erji">
+                                <a href="#">关闭预测</a>
+                            </li>
+                            <li class="erji">
+                                <a href="#">搜索历史</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="moreLi">
+                        <a href="http://www.baidu.com/more/" class="moreA">更多产品</a>
+                        <div class="gderji">
+                            <div class="gderji1">更多产品</div>
+                            <div class="gderji3" style="height:159px;">
+                                <div class="gderji4">
+                                    <a href="#">
+                                        <span class="gderji51"></span>糯米
+                                    </a>
+                                    <a href="#">
+                                        <span class="gderji52"></span> 知道
+                                    </a>
+                                    <a href="#">
+                                        <span class="gderji53"></span> 音乐
+                                    </a>
+                                    <a href="#">
+                                        <span class="gderji54"></span> 文档
+                                    </a>
+                                    <a href="#">
+                                        <span class="gderji55"></span> 图片
+                                    </a>
+                                    <a href="#">
+                                        <span class="gderji56"></span> 风云榜
+                                    </a>
+                                    <div class="allproduct">
+                                        <a href="https://www.baidu.com/more">全部产品&gt;&gt;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 这是一个顶栏end -->
+        <!-- 这是大中间部分start -->
+        <div id="centerDiv">
+            <div id="imgSearch">
+                <!-- 这是包含输入框的上半部分start -->
+                <div id="logoImgDiv">
+                    <!-- 这是中间的图片 -->
+                    <img src="https://www.baidu.com/img/bd_logo1.png" width="270" height="129">
+                </div>
+                <!-- 这是包含输入框的上半部分end -->
+                <!-- 这是中间的输入框部分start -->
+                <div id="searchDiv">
+                    <span id="searchSpan"><!-- 这是输入框 -->
+                        <input id="searchInput" maxlength="255">
+                    </span>
+                    <span id="btnSpan"><!-- 这是按钮 -->
+                        <input type="submit" id="searchBtn" value="百度一下">
+                    </span>
+                </div>
+                <!-- 这是中间的输入框部分end -->
+            </div>
+            <!-- 这是包含输入框的上半部分end -->
+        </div>
+        <!-- 这是大中间部分end -->
+        <!-- footer start -->
+        <div id="bottombar">
+            <p id="lh">
+                <a href="https://www.baidu.com/cache/sethelp/help.html">把百度设为主页</a>
+                <a href="http://home.baidu.com/">关于百度</a>
+                <a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-homeprofile">About&nbsp;&nbsp;Baidu</a>
+            </p>
+            <p id="cp">
+                ©2015&nbsp;Baidu&nbsp;
+                <a href="http://www.baidu.com/duty/">使用百度前必读</a> &nbsp;
+                <a href="http://jianyi.baidu.com/">意见反馈</a> &nbsp;京ICP证030173号&nbsp;
+                <i class="icon-logo"></i>
+            </p>
+        </div>
+        <!-- footer end -->
+    </div>
+    <!-- 这是大的容器end -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,553 @@
+/* 公共样式start */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+
+/* 公共样式end */
+
+
+/* 这是大容器start*/
+
+#container {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    min-width: 810px;
+    min-height: 600px;
+    /*background-color: #bdc3c7;*/
+}
+
+
+/* 这是顶栏start */
+
+#topbar {
+    height: 8%;
+    min-height: 48px;
+}
+
+
+/* 这是顶栏右边的一个容器 */
+
+#rightBar {
+    color: #ffffff;
+    right: 0px;
+    top: 0px;
+    margin: 19px 0 5px 0;
+    padding: 0 96px 0 0;
+    float: right;
+}
+
+
+/* 这是顶栏右边容器里前五个的class */
+
+.leftA {
+    /*  float: left; */
+    /*  color: #333; */
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+/* 这是顶栏右边容器里第六个登录的class */
+
+.loginA {
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+/* 这是顶栏右边容器里第七个设置的class */
+
+.setA {
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    /* overflow: hidden; */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+}
+
+a {
+    color: #000;
+    display: block;
+}
+
+a:hover {
+    /*background-color: #fff;*/
+    color: blue;
+}
+
+.erji {
+    width: 70px;
+    height: 28px;
+    float: none;
+    background-color: #fff;
+    border: 0;
+    font-size: 12px;
+    margin-top: -1px;
+}
+
+.erji a {
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.erji a:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+.erji_ul {
+    display: none;
+    position: absolute;
+    border: 1px solid #d1d1d1;
+    box-shadow: 1px 1px 5px #d1d1d1;
+}
+
+li:hover ul {
+    display: block;
+}
+
+.setArrow {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.setArrow em,
+.setArrow i {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: none;
+    border-color: transparent;
+    border-image: none;
+    border-style: dashed dashed solid;
+    border-width: 5px;
+    display: block;
+    font-size: 0;
+    line-height: 0
+}
+
+.setArrow em {
+    top: -1px;
+    border-bottom-color: #d8d8d8
+}
+
+.setArrow i {
+    top: 0;
+    border-bottom-color: #fff
+}
+
+
+/* 这是顶栏右边容器里第八个更多设置的class */
+
+.moreA {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    color: white;
+    background-color: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    margin-left: 19px;
+    margin-right: 2px;
+}
+
+.moreA {
+    text-decoration: none;
+}
+
+.moreLi:hover .gderji {
+    display: block;
+}
+
+.gderji {
+    display: none;
+    width: 85px;
+    min-height: 600px;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+
+.gderji1 {
+    color: #333;
+    text-align: center;
+    width: 66px;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 9px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    font-size: 13px;
+    cursor: default;
+}
+
+.gderji2 {
+    position: relative;
+}
+
+.gderji4 a {
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gderji4 a:hover {
+    text-decoration: underline;
+    background-color: #f9f9f9;
+}
+
+.gderji4 span {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 5px auto;
+    background: url("../img/tp.png") no-repeat scroll;
+}
+
+.gderji4 .gderji52 {
+    background-position: -36px 0;
+}
+
+.gderji4 .gderji53 {
+    background-position: -72px 0;
+}
+
+.gderji4 .gderji54 {
+    background-position: -112px 0;
+}
+
+.gderji4 .gderji55 {
+    background-position: -148px 0;
+}
+
+.gderji4 .gderji56 {
+    background-position: -184px 0;
+}
+
+.allproduct {
+    clear: both;
+    width: 85px;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.allproduct a {
+    width: 85px;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* 这是大中间部分start */
+
+#centerDiv {
+    height: auto;
+    /*  min-height: 382px;*/
+    /*background-color: #9b59b6;*/
+}
+
+
+/* 这是包含输入框的上半部分 */
+
+#imgSearch {
+    height: auto;
+    /*min-height: 191px;*/
+    /*background-color: #ecf0f1;*/
+}
+
+
+/* 这是中间的图片 */
+
+#logoImgDiv {
+    height: 69.11%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logoImgDiv img {
+    border: none;
+}
+
+
+/* 这是中间的输入框部分 */
+
+#searchDiv {
+    height: 37px;
+    width: 641px;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 这是整个输入框 */
+
+#searchSpan {
+    float: left;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #b6b6b6;
+    display: inline-block;
+    vertical-align: top;
+    border-right-width: 0;
+    margin-right: 0;
+    width: 539px;
+    overflow: hidden;
+}
+#searchSpan:hover{
+     border: 1px solid #2d78f4;
+}
+
+/* 这是输入框 */
+
+#searchInput {
+    position: relative;
+    width: 500px;
+    height: 22px;
+    font: 16px arial;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+
+/* 这是百度一下按钮 */
+
+#searchBtn {
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border: 0;
+    padding: 0;
+}
+
+#searchBtn:hover {
+    display: block;
+    background-color: #2d78f4;
+    cursor: pointer;
+}
+
+#btnSpan {
+    float: left;
+    width: 100px;
+    height: 36px;
+    border-bottom: 0px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    border-left-width: 0;
+}
+
+
+/* 内容部分样式start */
+
+.w_800 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.big_box {
+    height: 400px;
+    /*  border:1px solid green; */
+    margin-top: 20px;
+}
+
+.box {
+    width: 780px;
+    height: 400px;
+    /*  border:1px solid red; */
+    margin: 5px 10px;
+}
+
+.box_title {
+    width: 777px;
+    height: 40px;
+    border: 1px solid #DEDEDE;
+    background-color: #fff;
+}
+#tab_ul li {
+    float: left;
+    background-color: #fff;
+    margin-right: 35px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.tab{
+    cursor: pointer;
+}
+li{
+    cursor: pointer;
+}
+#tab_ul .tab {
+    background-color: #5CACEE;
+    border: 1px solid #868686;
+}
+
+.content {
+    clear: both;
+    background-color: #fff;
+    color: #000;
+    width: 450px;
+    height: 325px;
+    padding: 10px;
+    display: none;
+    margin-top: 44px;
+}
+
+.tv_img {
+    width: 200px;
+    height: auto;
+    padding: 3px;
+    float: left;
+}
+
+.my_font {
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    /*  border:1px solid red; */
+    margin-top: -40px;
+    float: left;
+}
+
+.my_font1 {
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    /*  border:1px solid red; */
+    margin-top: -10px;
+    float: left;
+}
+.font_color:hover{
+    color: blue;
+    text-decoration:underline;
+}
+.attention {
+    margin-top: 5px;
+}
+
+.attention li {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.first {
+    display: block;
+}
+
+.news {
+    float: right;
+    background-color: #fff;
+    color: #000;
+    width: 280px;
+    height: 325px;
+    padding: 10px;
+    margin-top: -345px;
+}
+
+.news_ul {
+    margin-top: 10px;
+}
+
+.news_ul li {
+    padding: 13px;
+}
+
+.news_all {
+    margin-top: 30px;
+    background-color: #fff;
+    color: #000;
+    width: 760px;
+    height: 325px;
+    padding: 10px;
+}
+
+.all_ul {
+    margin-top: 10px;
+}
+
+.all_ul li {
+    padding: 13px;
+}
+
+.all_left {
+    float: left;
+    width: 250px;
+    height: 380px;
+    /*   border: 1px solid red; */
+}
+
+.all_center {
+    float: left;
+    width: 250px;
+    height: 380px;
+    /*  border: 1px solid red; */
+}
+
+.all_right {
+    float: left;
+    width: 250px;
+    height: 380px;
+    /*   border: 1px solid red; */
+}
+
+
+/* 内容部分样式end */
+
+
+/* 这是大中间部分end */

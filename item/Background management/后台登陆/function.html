@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>后台系统</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/function.css">
+</head>
+
+<body background="img/bckg.jpg" >
+    <!-- 大的容器start -->
+    <div class="container">
+
+        <!-- 标题start -->
+        <div class="title">
+            用户管理系统
+        </div>
+        <!-- 标题end -->
+
+        <!-- 盒子start -->
+        <div class="box center-block">
+            <div class="top">
+                <p>用户登录</p>
+            </div>
+            <span>
+                注册 | 忘记密码
+            </span>
+            <form action="../后台管理/manage.html" class="all">
+                <div class="form-group">
+                    <label for="ursename"></label>
+                    <img src="img/user.png" alt="">
+                    <input type="text" class="form-control" placeholder="用户名" required="true">
+                    <label for="password"></label>
+                    <img src="img/pas.png" alt="">
+                    <input type="text" class="form-control" placeholder="密码" required="true">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value=""> 记住用户名和密码
+                        </label>
+                    </div>
+                    <button class="btn btn-default" type="submit"> 立即登录
+                    </button>
+                </div>
+            </form>
+        </div>
+        <!-- 盒子end -->
+    </div>
+    <!-- 大的容器end -->
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+.center {
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.st {
+  width: 400px;
+  height: 90px;
+}
+/* 公共样式start */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("../img/3.jpg");
+  backgroud-repeat: no-repeat;
+}
+/* 公共样式end */
+/* 容器部分start */
+.container {
+  width: auto;
+  height: auto;
+}
+/* 站牌头部样式start */
+.header {
+  width: 800px;
+  height: 500px;
+  background-color: #EEE5DE;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* 站牌头部的上面部分样式start */
+.above {
+  width: 800px;
+  height: 180px;
+}
+.a-left {
+  width: 300px;
+  height: 180px;
+  float: left;
+}
+.a-left h1 {
+  font-size: 100px;
+  line-height: 140px;
+  margin-left: 65px;
+  color: #fff;
+}
+.a-left .time {
+  width: 300px;
+  height: 0px;
+}
+.a-left b {
+  line-height: 38px;
+  margin-left: 25px;
+}
+.a-left .street {
+  width: 300px;
+  height: 140px;
+  background-color: #FF0000;
+}
+.a-right {
+  width: 400px;
+  height: 180px;
+  float: left;
+  margin-left: 95px;
+}
+.a-right .station {
+  width: 400px;
+  height: 90px;
+}
+.a-right .station h2 {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #228B22;
+}
+.a-right .station h3 {
+  margin-top: 15px;
+  margin-left: 28px;
+  color: #228B22;
+}
+.a-right .interval {
+  width: 400px;
+  height: 90px;
+}
+.a-right .interval h2 {
+  line-height: 90px;
+  margin-left: 150px;
+  color: #CD0000;
+}
+@-moz-document url-prefix() {
+  .a-right .station h3 {
+    margin-left: -3px;
+  }
+}
+.middle {
+  width: 800px;
+  height: 238px;
+  background-color: #065606;
+  color: #fff;
+}
+.middle .m-interval {
+  width: 800px;
+  height: 225px;
+  margin-top: 15px;
+}
+.middle .m-interval ul {
+  margin-left: 8px;
+}
+.middle .m-interval ul li {
+  width: 25px;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  writing-mode: lr-tb;
+  margin-top: 20px;
+  padding: 0 2px\9;
+  /* IE 9 */
+}
+.middle .m-interval ul li:hover {
+  background-color: #436EEE;
+}
+@-moz-document url-prefix() {
+  li {
+    padding: 0 2px;
+    /* Firefox */
+  }
+}
+/* 站牌头部的中间部分样式end */
+/* 站牌头部的下面部分样式start */
+.below {
+  width: 800px;
+  height: 78px;
+}
+.below .b-font {
+  width: 800px;
+  height: 35px;
+}
+.below .b-font h4 {
+  line-height: 30px;
+  margin-left: 170px;
+}
+.below .b-direct {
+  width: 800px;
+  height: 43px;
+}
+.below .b-direct .ling {
+  width: 500px;
+  height: 15px;
+  margin-top: 10px;
+  background-color: #FF0000;
+  margin-left: 75px;
+}
+.below .b-direct .triangle {
+  float: right;
+  margin-top: -30px;
+  margin-right: 65px;
+  width: 0;
+  height: 0;
+  border-width: 15px 80px 15px 80px;
+  border-style: solid;
+  border-color: transparent transparent #FF0000 #FF0000;
+}
+/* 站牌头部的上面部分样式start */
+/* 站牌头部样式end */
+/* 站牌底部样式start */
+.footer {
+  width: 100px;
+  height: 153px;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #555555;
+}
+/* 站牌底部样式end */
+/* 容器部分end */
